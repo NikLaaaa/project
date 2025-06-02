@@ -1,13 +1,121 @@
- <!DOCTYPE html>
- <html lang="en">
- <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
- </head>
- <body>
-    
- </body>
- <script src="/script.js"></script>
- </html>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Event Booster</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="hero">
+    <div class="overlay"></div>
+
+    <!-- Логотип и надпись в левом верхнем углу -->
+    <div class="hero-header">
+      <img src="src/images/logo.png" alt="logo" class="hero-logo" />
+    </div>
+
+    <!-- Основной контент -->
+    <div class="container">
+      <h2 class="title">FIND BEST EVENTS<br>AROUND THE WORLD</h2>
+      <div class="search-bar">
+        <input type="text" placeholder="Start searching" />
+        <select>
+          <option>Choose country</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <!-- Секция с карточками -->
+<div class="events-section">
+  <div class="container events">
+    <div class="event">
+      <img src="/src/images/event1.png" alt="Eurovision" />
+      <h3>Eurovision 2021 finals!</h3>
+      <p class="date">2021-05-13</p>
+      <p class="location">📍 Palace of Ukraine</p>
+    </div>
+
+    <div class="event">
+      <img src="/src/images/event2.png" alt="Atlas Weekend" />
+      <h3>Atlas Weekend</h3>
+      <p class="date">2021-06-09</p>
+      <p class="location">📍 VDNH</p>
+    </div>
+
+    <div class="event">
+      <img src="/src/images/event3.png" alt="LP" />
+      <h3>LP</h3>
+      <p class="date">2021-07-27</p>
+      <p class="location">📍 Palace of Ukraine</p>
+    </div>
+
+    <div class="event">
+      <img src="/src/images/event4.png" alt="Monatik" />
+      <h3>MONATIK</h3>
+      <p class="date">2021-07-17</p>
+      <p class="location">📍 VDNH</p>
+    </div>
+
+    <!-- Додайте ще блоків за цим зразком -->
+  </div>
+</div>
+
+
+<div class="modal">
+  <div class="modal-content">
+    <button class="close">&times;</button>
+    <div class="modal-header">
+      <img src="black-eyed-peas-thumb.jpg" alt="Black Eyed Peas" class="avatar" />
+    </div>
+    <div class="modal-body">
+      <div class="poster">
+        <img src="/src/images/black-eyed-peas-poster.jpg" alt="Black Eyed Peas Poster" />
+      </div>
+      <div class="info">
+        <p><strong>INFO</strong><br>Atlas Weekend is the largest music festival in Ukraine. More than 200 artists will create a proper music festival atmosphere on 10 stages</p>
+        <p><strong>WHEN</strong><br>2021-06-09<br>20:00 (Kyiv/Ukraine)</p>
+        <p><strong>WHERE</strong><br>Kyiv, Ukraine<br>VDNH</p>
+        <p><strong>WHO</strong><br>The Black Eyed Peas</p>
+        <p><strong>PRICES</strong><br>
+          <span class="price">Standart 300–500 UAH</span>
+          <button class="buy">BUY TICKETS</button><br>
+          <span class="price">VIP 1000–1500 UAH</span>
+          <button class="buy">BUY TICKETS</button>
+        </p>
+        <button class="more">MORE FROM THIS AUTHOR</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="pagination">
+        <span class="page active">1</span>
+        <span class="page">2</span>
+        <span class="page">3</span>
+        <span class="page">4</span>
+        <span class="page">5</span>
+        <span class="dots">...</span>
+        <span class="page">29</span>
+      </div>
+      <div class="copyright">
+        <p>© 2021 | ALL RIGHTS RESERVED | DEVELOPED WITH <span class="heart">♥</span> BY GoIT Students</p>
+      </div>
+    </div>
+  </footer>
+
+
+  
+</body>
+</html>
+
+
+</html>
